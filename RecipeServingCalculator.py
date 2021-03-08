@@ -84,7 +84,7 @@ def get_info(ingredients, measurements, units):
     return  counter
 
 #displays the list of available units and allows selection
-def units_list(): QQ
+def units_list():
     units = ['Cups', 'Dashes', 'Ounces', 'Pinches', 'Tablespoons', 'Teaspoons', 'Pounds', 'Each', 'Cups', 'Drops',
              'Gallons', 'Ounces', 'Quarts']
     length = len(units)
