@@ -1,2 +1,2 @@
 # RecipeServingCalculator
-This program takes the input of your recipe and converts it from the designated servings to the amount that you need of each item to make the recipe.
+This is a terminal based program that will allow you to take the measurements of the ingredients in your recipe and convert all the measurements to the amount of servings that you are currently making.
