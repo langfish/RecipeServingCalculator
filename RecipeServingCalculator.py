@@ -88,11 +88,11 @@ def units_list():
     units = ['Cups', 'Dashes', 'Ounces', 'Pinches', 'Tablespoons', 'Teaspoons', 'Pounds', 'Each', 'Cups', 'Drops',
              'Gallons', 'Ounces', 'Quarts']
     length = len(units)
-    for i in range(length - 1):
+    for i in range(length):
         print(i, units[i])
 
     list_selection = int(input_number("Choose an option for the units from the list above! "))
-    unit_selection = units[list_selection - 1]
+    unit_selection = units[list_selection]
     return unit_selection
 
 #Converts to the new amount and displays the new recipe
